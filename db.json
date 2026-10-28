@@ -9,11 +9,11 @@
       "id": "1"
     },
     {
-      "title": "President Tinubu is a great man i know",
+      "title": "President Tinubu is a great man i knows in the world now",
       "body": "President Tinubu is a great man President Tinubu is a great man President Tinubu is a great manv President Tinubu is a great man President Tinubu is a great man",
       "imageUrl": "https://images.unsplash.com/photo-1761165308103-c58782f27c59?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1887",
       "author": "Olu",
-      "date": "2025-11-09",
+      "date": "2026-03-01",
       "id": "1761385312738"
     },
     {
@@ -31,13 +31,43 @@
       "imageUrl": "",
       "author": "popqwo",
       "date": "2025-11-09"
+    },
+    {
+      "id": "1772382141766",
+      "title": "kola is here",
+      "body": "mnokneclk",
+      "imageUrl": "efpompo",
+      "author": "ompom",
+      "date": "2026-03-01"
+    },
+    {
+      "title": "Holiday",
+      "body": "how i spent my last holiday",
+      "imageUrl": "Holiday image",
+      "author": "John Deo",
+      "category": "I am Damilola and i'm a web developer",
+      "date": "2026-08-13",
+      "id": "1786654620867"
     }
   ],
   "users": [
     {
       "id": "1",
-      "username": "admin",
-      "password": "password123"
+      "name": "dike",
+      "email": "email@gmail.com"
+    },
+    {
+      "id": "1787006725267",
+      "name": "victory",
+      "email": "victorycletus216@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "house",
+      "price": "$35.000",
+      "description": "descript",
+      "id": "c530"
     }
   ]
 }

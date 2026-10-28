@@ -1,17 +1,60 @@
-
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <aside style={{ width: '200px', padding: '20px', borderRight: '1px solid #ccc' }}>
-      <nav>
-        <ul style={{ listStyle: 'none', padding: 0 }}>
-          <li style={{ marginBottom: '10px' }}>
-            <NavLink to="/admin/dashboard" style={({ isActive }) => ({ color: isActive ? 'red' : 'blue' })}>Dashboard</NavLink>
+    <aside className="admin-sidebar">
+      <div className="admin-brand">
+        <span className="admin-brand-name">The Daily Edit</span>
+        <span className="admin-brand-sub">Admin area</span>
+      </div>
+
+      <nav aria-label="Admin navigation">
+        <ul>
+          <li>
+            <NavLink
+              to="/admin/dashboard"
+              className={({ isActive }) =>
+                isActive ? 'admin-nav-link active' : 'admin-nav-link'
+              }
+            >
+              Dashboard
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/admin/manage-posts" style={({ isActive }) => ({ color: isActive ? 'red' : 'blue' })}>Manage Posts</NavLink>
+            <NavLink
+              to="/admin/manage-posts"
+              className={({ isActive }) =>
+                isActive ? 'admin-nav-link active' : 'admin-nav-link'
+              }
+            >
+              Manage Articles
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/admin/add-post"
+              className={({ isActive }) =>
+                isActive ? 'admin-nav-link active' : 'admin-nav-link'
+              }
+            >
+              Create Article
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/admin/manage-users"
+              className={({ isActive }) =>
+                isActive ? 'admin-nav-link active' : 'admin-nav-link'
+              }
+            >
+              Manage Users
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/" className="admin-nav-link">
+              View Website
+            </NavLink>
           </li>
         </ul>
       </nav>
